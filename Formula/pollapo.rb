@@ -1,8 +1,8 @@
 class Pollapo < Formula
   desc "Protobuf dependency management tool"
   homepage "https://github.com/riiid/pbkit/tree/main/cli/pollapo"
-  url "https://github.com/riiid/pbkit/archive/v0.0.2.tar.gz"
-  sha256 "4749193a9cb76b1a6b34d43c7cdd082fc12983223ad6410f79525ebfa01fd4ad"
+  url "https://github.com/riiid/pbkit/archive/v0.0.3.tar.gz"
+  sha256 "a42fe92d0c2b6df17b2c3d50b9f25116f999fb0a205427b838ab92d256c35985"
   license any_of: ["Apache-2.0", "MIT"]
   depends_on "deno"
   depends_on "gh"
