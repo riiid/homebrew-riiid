@@ -1,11 +1,10 @@
 class Pollapo < Formula
   desc "Protobuf dependency management tool"
   homepage "https://github.com/riiid/pbkit/tree/main/cli/pollapo"
-  url "https://github.com/riiid/pbkit/archive/v0.0.3.tar.gz"
-  sha256 "a42fe92d0c2b6df17b2c3d50b9f25116f999fb0a205427b838ab92d256c35985"
+  url "https://github.com/riiid/pbkit/archive/v0.0.4.tar.gz"
+  sha256 "94e98e0f91973c65e6936245304ac8ccef7e1b92cfdca8b465dcb0343e8e45c5"
   license any_of: ["Apache-2.0", "MIT"]
   depends_on "deno"
-  depends_on "gh"
   bottle :unneeded
   def install
     mkdir_p libexec
