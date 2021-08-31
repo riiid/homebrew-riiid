@@ -6,6 +6,7 @@ class Pollapo < Formula
   license any_of: ["Apache-2.0", "MIT"]
   depends_on "deno"
   bottle :unneeded
+  deprecate! date: "2021-06-13", because: "The pollapo package has been replaced by the pbkit package.\nWhen you install the pbkit package, the pollapo command is also installed."
   def install
     mkdir_p libexec
     system "mv ./* #{libexec}/"
