@@ -11,6 +11,7 @@ class Toolbelt < Formula
     system "mv ./* #{libexec}/"
     system "deno", "install", "--root", libexec, "-n", "riiid-extract-keycloak-groups", "-A", "--unstable", libexec/"keycloak/extract-group-mapping-from-proto-services.ts"
     system "deno", "install", "--root", libexec, "-n", "gen-ssp", "-A", "--unstable", libexec/"gen-ssp/gen/index.ts"
+    system "deno", "install", "--root", libexec, "-n", "riiid-create-react-component", "-A", "--unstable", libexec/"www-snippet/create-react-component-cli.ts"
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 end
