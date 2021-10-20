@@ -5,7 +5,6 @@ class Toolbelt < Formula
   sha256 "d34a5e56d42e06fa85cc46d07bbe82694f9bab656c78af8a8e1fc546d84e9d6d"
   license any_of: ["Apache-2.0", "MIT"]
   depends_on "deno"
-  bottle :unneeded
   def install
     mkdir_p libexec
     system "mv ./* #{libexec}/"
