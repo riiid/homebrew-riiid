@@ -1,8 +1,8 @@
 class Toolbelt < Formula
   desc "cli utilities for riiid engineering"
   homepage "https://github.com/riiid/toolbelt"
-  url "https://github.com/riiid/toolbelt/archive/v0.0.6.tar.gz"
-  sha256 "0e4ff153ae169691430877de23b05d5053c880fee96dfc8d87323aeb8515768c"
+  url "https://github.com/riiid/toolbelt/archive/v0.0.7.tar.gz"
+  sha256 "9699abbbca84121e7d63e54244f9c3da210662e086776ba58ca39766f9bc2d51"
   license any_of: ["Apache-2.0", "MIT"]
   depends_on "deno"
   def install
